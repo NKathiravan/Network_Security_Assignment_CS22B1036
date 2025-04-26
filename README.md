@@ -2,7 +2,7 @@
 
 # RSA Algorithm Implementation 🔐
 
-This project implements the RSA public-key cryptosystem using Python. It's a part of the Network Security course assignment (CS1702) at the **National Institute of Technology Puducherry**, submitted by **Sandeep U (CS22B1050)**.
+This project implements the RSA public-key cryptosystem using Python. It's a part of the Network Security course assignment (CS1702) at the **National Institute of Technology Puducherry**, submitted by **N Kathiravan (CS22B1036)**.
 
 ## 📚 Introduction
 
@@ -33,21 +33,9 @@ RSA is based on the computational difficulty of factoring large composite number
 - The program outputs:
   - Public and private keys
   - Encrypted message
-  - Decr
+  - Decrypted message
 
 ## 📄 Output Example
 
-```
-Enter key bit-length (e.g., 1024): 512
-Generating RSA keys...
-Public Key:  (e, n)
-Private Key:  (d, n)
+![image](https://github.com/user-attachments/assets/5b2ec695-6329-435a-be06-9d918d3da0f6)
 
-Enter message to encrypt: hello
-
-Encrypted Message:
-[2793, 8482, 13293, 13293, 15456]
-
-Decrypted Message:
-hello
-```
