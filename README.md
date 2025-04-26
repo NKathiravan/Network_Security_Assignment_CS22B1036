@@ -2,7 +2,7 @@
 
 # RSA Algorithm Implementation 🔐
 
-This project implements the RSA public-key cryptosystem using Python. It's a part of the Network Security course assignment (CS1702) at the **National Institute of Technology Puducherry**, submitted by **N Kathiravan (CS22B1036)**.
+This project implements the RSA public-key cryptosystem using Java. It's a part of the Network Security course assignment (CS1702) at the **National Institute of Technology Puducherry**, submitted by **N Kathiravan (CS22B1036)**.
 
 ## 📚 Introduction
 
@@ -22,13 +22,7 @@ RSA is based on the computational difficulty of factoring large composite number
 6. Decryption: `m ≡ c^d mod n`
 
 ## 🧠 Features
-
-- **Miller-Rabin Primality Test** for generating large primes
-- **Extended Euclidean Algorithm** to compute the modular inverse
-- **Key Pair Generation** usypted original messageing large prime numbers
-- **Text Encryption/Decryption** using public/private RSA keys
-
-- Enter the desired bit length (e.g., 1024) for key generation.
+- Enter the two large prime numbers to be used for key generation
 - Enter a message to encrypt.
 - The program outputs:
   - Public and private keys
